@@ -65,7 +65,5 @@ else
     eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-
-
-# # install go
-# brew install go
+# # install all brew things
+brew bundle install --file Brewfile
